@@ -1,0 +1,114 @@
+*:root{
+
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+
+}
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", "Arial", sans-serif !important;
+	font-style: normal;
+	font-weight: 400 !important;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	background-color: #fff !important;
+}
+
+/* STICKY-FOOTER */
+.site-main {
+	flex-grow: 1;
+}
+
+
+button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1660px;
+	margin: 0 auto;
+	padding: 0 var(--container-padding);
+}
+
+button,
+input,
+label {
+	font-family: inherit;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+button{
+    padding: 0;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+button, input, label{
+    font-family: inherit;
+}
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* sticky footer */
+.site-main {
+	flex-grow: 1;
+}
+.container {
+    width: 100%;
+    max-width: 1660px;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+}

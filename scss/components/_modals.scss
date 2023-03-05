@@ -1,0 +1,48 @@
+@use "@components/inputs";
+
+.register-dialog {
+    width: min(966px, 70%);
+    padding: 50px 40px 40px 41px;
+    border-radius: 40px;
+    border: none;
+
+    &::backdrop {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.register-form {
+    display: grid;
+}
+
+.register-form__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.register-form__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.register-form__btn {
+    width: 54px;
+    height: 54px;
+    background: #F5F5F5;
+    border-radius: 40px;
+    background-image: url("/hero/close.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+}
+
+.register-form__submitter {
+    padding-block: 41px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    border-radius: 30px;
+}

@@ -1,0 +1,71 @@
+/* interested section styles start */
+.interested {
+	padding-top: 112px;
+	padding-bottom: 113px;
+	background-color: #eabf9f;
+}
+
+.interested-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.interested-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	margin-top: 0;
+	margin-bottom: 10;
+	color: #01384d;
+}
+.interested-desc {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #01384d;
+}
+
+.interested-form {
+	position: relative;
+	display: flex;
+	gap: 15px;
+	::before {
+		content: "+998 |";
+		position: absolute;
+		top: 21px;
+		left: 23px;
+		z-index: 1;
+		display: block;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 19px;
+		color: #01384d;
+	}
+}
+
+.interested-input {
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	padding: 21px 10px 20px 86px;
+	color: #01384d;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+.interested-input::placeholder {
+	color: #01384d66;
+}
+.interested-btn {
+	width: 240px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #ffffff;
+	border: 0;
+	background-color: #01384d;
+	border-radius: 5px;
+}

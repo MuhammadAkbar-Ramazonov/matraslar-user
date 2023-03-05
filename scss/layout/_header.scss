@@ -1,0 +1,47 @@
+/* header styles */
+.site-header {
+	background-color: #eabf9f;
+}
+.site-header-inner {
+	padding-top: 14px;
+	padding-bottom: 16px;
+}
+.site-header-tel {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #01384d;
+	text-decoration: none;
+	::before {
+		content: "";
+		display: block;
+		width: 19px;
+		height: 19px;
+		margin-right: 13px;
+		background-image: url("Call.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+}
+.site-nav-link {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #01384d;
+	text-decoration: none;
+	opacity: 0.6;
+}
+.site-header-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-left: 38px;
+	padding: 13px 28px;
+	background-color: #fff;
+	border: 2px solid #01384d;
+	border-radius: 5px;
+	color: #01384d;
+}

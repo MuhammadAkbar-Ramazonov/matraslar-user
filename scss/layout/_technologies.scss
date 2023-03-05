@@ -1,0 +1,56 @@
+
+
+/* technologies  styles start */
+.technologies {
+	margin-bottom: 140px;
+}
+.technologies-title {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 59px;
+	margin-top: 0;
+	margin-bottom: 81px;
+	text-align: center;
+	color: #01384d;
+}
+.technologies-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.technologies-item {
+	width: 407px;
+}
+.technologies-item-title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 25px;
+	color: #01384d;
+}
+.technologies-iframe {
+	border: 3px solid #01384d;
+	border-radius: 10px;
+	background-image: url("./images/Polygon.svg");
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	background-position: center;
+}
+.technologies-item-desc {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 0;
+	color: #01384d;
+}

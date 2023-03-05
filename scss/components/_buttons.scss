@@ -1,0 +1,13 @@
+.btn-success {
+    padding: 23px 55px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 33px;
+    color: #FDFBF8;
+    background: #70908B;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: #07484A;
+    }
+}
